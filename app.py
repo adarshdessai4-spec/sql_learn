@@ -124,6 +124,7 @@ def get_schema_summary():
 def main():
     st.set_page_config(page_title="SQL Practice App (Beginner) — SQLite", layout="wide")
     st.title("🧠 SQL Practice App (Beginner) — SQLite")
+    st.subheader("Hey Pranjali, welcome to Adarsh Tech learning platform.")
     st.markdown(
         """
         <style>

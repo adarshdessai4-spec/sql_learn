@@ -33,3 +33,18 @@ This project includes `Procfile`, `railway.toml`, and `runtime.txt`.
 2) In Railway, create a new project from the repo.
 3) Deploy. Railway will run:
 `streamlit run app.py --server.port $PORT --server.address 0.0.0.0`
+
+## GitHub SSH setup (optional)
+
+If you prefer SSH for GitHub pushes:
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+cat ~/.ssh/id_ed25519.pub
+```
+
+Add the public key to your GitHub account, then use:
+
+```bash
+git remote set-url origin git@github.com:adarshdessai4-spec/sql_learn.git
+```
